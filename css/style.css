@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#time {
+	width: 370px;
+	margin: 1px auto;
+	height: 120px;
+	font-size: 25px;
+	line-height: 60px;
+	background: #333;
+	color: white;
+	text-align: center;
+}
+#importantDay {
+	width: 370px;
+	margin: 0 auto;
+	background: #333;
+	color: white;
+}
+#importantDay h3 {
+	margin: 0 10px;
+}
+#importantDay div {
+	margin: 0 10px;
+}
+#stopwatch {
+	position: relative;
+	width: 370px;
+	margin: 1px auto;
+	height: 460px;
+	line-height: 60px;
+	background: #000;
+	color: white;
+	text-align: center;
+}
+#stopwatch p {
+	background: #333;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+#stopwatch button {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius:50%;
+	outline: 0;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #333;
+	background: white;
+}
+#stopwatch button:active {
+	top: 2px;
+}
+#showtime {
+	margin: 40px auto;
+	font-size: 70px;
+}
+#clear {
+	left: -60px;
+}
+#begin {
+	right: -60px;
+}
