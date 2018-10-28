@@ -124,9 +124,9 @@ window.onload = function(){
 	    var offsetTime = Math.abs(time1 - time2);
 	    return Math.floor(offsetTime / (3600 * 24 * 1000));
 	}
-	 var weddingDay = getOffsetDays(new Date().getTime(), new Date("2017, 10, 05").getTime());
-	 var engagementDay = getOffsetDays(new Date().getTime(), new Date("2017, 05, 01").getTime());
-	 var meetingDay = getOffsetDays(new Date().getTime(), new Date("2017, 02, 03").getTime());
+	 var weddingDay = getOffsetDays(new Date().getTime(), new Date("2017/10/05").getTime());
+	 var engagementDay = getOffsetDays(new Date().getTime(), new Date("2017/05/01").getTime());
+	 var meetingDay = getOffsetDays(new Date().getTime(), new Date("2017/02/03").getTime());
 	// 获取相隔天数
 	document.getElementById("weddingDay").innerHTML = "距离2017年10月05日，已经过去了<strong>"+weddingDay+"</strong>天了";
 	document.getElementById("engagementDay").innerHTML = "距离2017年05月01日，已经过去了<strong>"+engagementDay+"</strong>天了";
